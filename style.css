@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(91, 111, 223);
+}
+#title{
+ color: rgb(95, 95, 34);
+ font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   letter-spacing: 5px;
+   word-spacing: 3px;
+   font-weight: 700;
+   
+}
+#parent{
+    display: flex;
+    flex-direction: column;
+    margin:150px auto;
+    width: 50%;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+.dice-container{
+    border: 10px solid rgb(154, 184, 223);
+    border-radius: 20px;
+    background-color: black;
+    height: 300px;
+}
+
+#gif{
+    width:300px;
+    border-radius: 10px;
+}
+.roll-btn{
+    width: 50%;
+    padding: 7px;
+    border: none;
+    border-radius: 20px;
+    color: rgb(252, 156, 172);
+    /* border: 8px solid  rgb(52, 82, 121); */
+    background-color: rgb(34, 66, 92);
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.roll-btn:hover{
+    color: rgb(255, 208, 216);
+    background-color: rgb(61, 91, 116);
+    transition: 700ms;
+}
